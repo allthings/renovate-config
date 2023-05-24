@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "config:base",
+    "docker:disable"
   ],
   "automerge": false,
   "automergeType": "branch",
@@ -25,8 +26,8 @@
   },
   "rebaseStalePrs": true,
   "schedule": [
-    "on the 2nd and 4th day instance on saturday after 1am",
-    "on the 2nd and 4th day instance on sunday after 1am"
+    "on the 1st and 3rd day instance on saturday after 1am",
+    "on the 1st and 3rd day instance on sunday after 1am"
   ],
   "timezone": "Europe/Berlin",
   "updateNotScheduled": false

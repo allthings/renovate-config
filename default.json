@@ -14,10 +14,12 @@
   "packageRules": [
     {
       "packageNames": [
-        "aws-sdk"
+        "aws-sdk",
+        "caniuse-lite",
+        "@types/node"
       ],
       "schedule": [
-        "after 2am and before 7am on sunday"
+        "on the 1st day instance on saturday after 1am"
       ]
     }
   ],
@@ -27,7 +29,7 @@
   "rebaseStalePrs": true,
   "schedule": [
     "on the 1st and 3rd day instance on saturday after 1am",
-    "on the 1st and 3rd day instance on sunday after 1am"
+    "on the 1st and 3rd day instance on sunday before 2pm"
   ],
   "timezone": "Europe/Berlin",
   "updateNotScheduled": false

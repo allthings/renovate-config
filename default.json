@@ -19,7 +19,7 @@
         "@types/node"
       ],
       "schedule": [
-        "on the 1st day instance on saturday after 1am"
+        "on the 1st day instance on saturday after 3:15am"
       ]
     }
   ],
@@ -28,8 +28,8 @@
   },
   "rebaseStalePrs": true,
   "schedule": [
-    "on the 1st and 3rd day instance on saturday after 1am",
-    "on the 1st and 3rd day instance on sunday before 2pm"
+    "on the 1st and 3rd day instance on saturday after 3:15am",
+    "on the 1st and 3rd day instance on sunday after 3:15am"
   ],
   "timezone": "Europe/Berlin",
   "updateNotScheduled": false

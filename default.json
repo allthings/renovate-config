@@ -8,6 +8,12 @@
   "automergeType": "branch",
   "commitMessagePrefix": "⬆️ ",
   "labels": ["renovate"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "on the 1st day instance on friday after 6:00pm"
+    ]
+  },
   "minor": {
     "automerge": true
   },

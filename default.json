@@ -23,12 +23,12 @@
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch"],
-      "groupName": "main dependencies (patch updates)"
+      "groupName": "main dependencies patch updates"
     },
     {
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "devDependencies (non-major)"
+      "groupName": "devDependencies non-major"
     },
     {
       "packageNames": [

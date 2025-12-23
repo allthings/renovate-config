@@ -32,8 +32,7 @@
     },
     {
       "packageNames": [
-        "caniuse-lite",
-        "@types/node"
+        "caniuse-lite"
       ],
       "schedule": [
         "on the 1st day instance on sunday after 3:15am"

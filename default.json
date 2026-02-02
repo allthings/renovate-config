@@ -29,14 +29,6 @@
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "devDependencies non-major"
-    },
-    {
-      "packageNames": [
-        "caniuse-lite"
-      ],
-      "schedule": [
-        "on the 1st day instance on sunday after 3:15am"
-      ]
     }
   ],
   "patch": {

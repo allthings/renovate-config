@@ -36,8 +36,7 @@
   },
   "rebaseStalePrs": true,
   "schedule": [
-    "on the 1st and 3rd day instance on saturday after 3:15am",
-    "on the 1st and 3rd day instance on sunday after 3:15am"
+    "on the 1st and 3rd day instance on saturday after 3:15am"
   ],
   "timezone": "Europe/Berlin",
   "updateNotScheduled": false

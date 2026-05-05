@@ -29,6 +29,10 @@
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch", "minor"],
       "groupName": "devDependencies non-major"
+    },
+    {                                                                  
+      "matchPackageNames": ["@allthings/eslint-config"],               
+      "groupName": null                                                
     }
   ],
   "patch": {

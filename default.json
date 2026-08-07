@@ -38,6 +38,7 @@
   "patch": {
     "automerge": true
   },
+  "postUpdateOptions": ["yarnDedupeHighest"],
   "rebaseStalePrs": true,
   "schedule": [
     "on the 1st and 3rd day instance on saturday after 3:15am",

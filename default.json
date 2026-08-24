@@ -9,6 +9,7 @@
   "commitMessagePrefix": "⬆️ ",
   "configMigration": true,
   "ignorePaths": [".github/actions/**"],
+  "internalChecksFilter": "strict",
   "labels": ["renovate"],
   "lockFileMaintenance": {
     "enabled": true,
@@ -16,6 +17,7 @@
       "on the 1st day instance on thursday after 6:00pm"
     ]
   },
+  "minimumReleaseAge": "1 day",
   "minor": {
     "automerge": true
   },

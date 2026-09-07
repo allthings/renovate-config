@@ -13,6 +13,7 @@
   "labels": ["renovate"],
   "lockFileMaintenance": {
     "enabled": true,
+    "minimumReleaseAge": null,
     "schedule": [
       "on the 1st day instance on thursday after 6:00pm"
     ]

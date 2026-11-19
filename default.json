@@ -2,12 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
-    "docker:disable"
+    "customManagers:dockerfileVersions"
   ],
   "automerge": false,
   "automergeType": "branch",
   "commitMessagePrefix": "⬆️ ",
   "configMigration": true,
+  "docker-compose": {
+    "enabled": false
+  },
   "ignorePaths": [".github/actions/**"],
   "internalChecksFilter": "strict",
   "labels": ["renovate"],
@@ -23,6 +26,11 @@
     "automerge": true
   },
   "packageRules": [
+    {
+      "description": "Docker images and annotated versions in Dockerfiles ship with the next image build, so they are reviewed, not automerged",
+      "matchManagers": ["dockerfile", "custom.regex"],
+      "automerge": false
+    },
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch"],

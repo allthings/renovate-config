@@ -27,4 +27,4 @@ Usage:
   ```
 
 - **docker-compose** stays off. A repo opts in with `"docker-compose": { "enabled": true }` (see github-action-tools).
-- To turn Docker updates off in a repo, add `"docker:disable"` to its `extends`.
+- To turn Docker updates off in a repo, add `"docker:disable"` to its `extends`. Annotated `ARG`/`ENV` lines are a separate custom manager; to stop those too, add `"ignorePresets": ["customManagers:dockerfileVersions"]`.

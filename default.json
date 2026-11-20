@@ -6,6 +6,9 @@
   ],
   "automerge": false,
   "automergeType": "branch",
+  "circleci": {
+    "enabled": false
+  },
   "commitMessagePrefix": "⬆️ ",
   "configMigration": true,
   "docker-compose": {
